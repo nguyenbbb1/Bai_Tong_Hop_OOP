@@ -1,0 +1,26 @@
+=== Products ===
+Product{id='p1', name='iPhone 15', price=2500.0}, brand='Apple'
+Product{id='l1', name='ThinkPad X1', price=3000.0}, brand='Lenovo'
+Product{id='b1', name='Java Basics', price=200.0}, author='Nguyen'
+
+=== Order Details ===
+Order{id='o1', customer=Alice, total=5700.0}
+
+=== Delivering Products ===
+Delivering book: Java Basics by Nguyen
+Delivering phone: Apple iPhone 15
+Delivering laptop: Lenovo ThinkPad X1
+
+=== Refunding Products ===
+Refunding book: Java Basics
+Refunding phone: iPhone 15
+Laptop ThinkPad X1 cannot be refunded!
+
+=== Payment ===
+Paid 5700.0 using Credit Card
+Paid 5700.0 using PayPal
+Paid 5700.0 in cash
+
+=== Exception Testing ===
+Product ID already exists: b1
+Price cannot be negative
